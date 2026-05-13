@@ -5,3 +5,7 @@
 *.class
 *Test.java
 **/test/
+# 在 .gitignore 中添加
+**/application-dev.yml
+**/application-prod.yml
+*.local.yml
