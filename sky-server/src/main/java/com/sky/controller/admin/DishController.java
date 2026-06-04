@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/admin/dish")
 @Slf4j
-public class DishCotroller {
+public class DishController {
     @Autowired
     private DishService dishService;
     @PostMapping
