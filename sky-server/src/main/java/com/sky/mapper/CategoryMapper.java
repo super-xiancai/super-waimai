@@ -12,7 +12,6 @@ import java.util.List;
 
 @Mapper
 public interface CategoryMapper {
-
     /**
      * 插入数据
      * @param category
