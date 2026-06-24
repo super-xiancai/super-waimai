@@ -6,6 +6,10 @@ spring:
     active: dev
   main:
     allow-circular-references: true
+  redis:
+    host: ${sky.redis.host}
+    port: ${sky.redis.port}
+    database: ${sky.redis.database}
   datasource:
     druid:
       driver-class-name: ${sky.datasource.driver-class-name}
